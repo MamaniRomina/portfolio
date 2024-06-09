@@ -3,30 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/estilo.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
     <title>Porfolio</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <a href="">Inicio</a>
-            <a href="">About Me</a>
-            <a href="">Habilidades</a>
-            <a href="">Porfolio</a>
-            <a href="">Contacto</a>
+            <a href="#hero">Inicio</a>
+            <a href="#aboutme">About Me</a>
+            <a href="#habilidades">Habilidades</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#footer">Contacto</a>
         </nav>
         <div class="logo"><i class="bi bi-mastodon"></i></div>
     </header>
     <main>
-        <section class="contenedor">
+        <section class="contenedor" id="hero">
             <div class="hero">
                 <img class="persona" src="img/Romi.jpeg" alt="Romina">
                 <h1 class="nombre">Hola soy, <br>Romina del Huerto Mamani</h1>
                 <p class="developer">Web Developer</p>
             </div>
         </section>
-        <section class="contenedorAbout">
+        <section class="contenedorAbout" id="aboutme">
             <h2 class="aboutMe">Sobre Mi</h2>
             <div class="linea"></div>
             <section class="card">
@@ -51,7 +52,7 @@
               </div>
             </section>           
         </section>
-        <section class="habilidades">
+        <section class="habilidades" id="habilidades">
            <div>
             <img class="persona1" src="img/Romi.jpeg" alt="">
             <h2 class="tituloHab">Quien soy</h2>
@@ -61,7 +62,7 @@
            </div>
             </section>          
         </section>
-        <section class="portfolio">
+        <section class="portfolio" id="portfolio">
             <h2 class="ph2">Portfolio</h2>
             <div class="linea"></div>
             <h4>Una seleccion de mis Trabajos recientes</h4>
@@ -88,7 +89,7 @@
         <section class="Contacto">
         </section>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
         <div class="contacto"><a  class="contactanos" href="formulario.html">Contactanos</a></div>
         <div class="email"> <p class="email">rominadelhuerto@gmail.com</p></div>
         <div >

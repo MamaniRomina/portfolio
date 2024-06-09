@@ -73,13 +73,16 @@ width: 20px;
     justify-content: space-around;
     align-items: center;
     padding: 20px 0px;
-   
+}
+.card h4{
+    color:black;
 }
 .card1, .card2, .card3{
     width: 25%;
     font-family:'Times New Roman', Times, serif; font-weight: 300px;
     text-align:center;
     justify-content: space-between;
+    color: black;
 }
 .aboutMe{
     align-items: center;
@@ -187,4 +190,55 @@ padding: 20px 0px;
 }
 .link{
     padding: 5px 1px;
+}
+.for, body{
+    background-color: #D9D9D9;
+}
+.formulario{
+    width: 50%;
+    background-color: #315959;
+    display: flex;
+    flex-direction: column;
+    margin-top: 75px;
+    margin-left: 25%;
+    justify-content: center;
+    align-items: center;
+    color: #D9D9D9;
+}
+button{
+    color:#315959;
+    background-color:#D9D9D9;
+    border-radius: 5px;
+    height: 25px;
+    width: 80px;
+    align-self: center;
+}
+.button, a{
+    text-align: center;
+    text-decoration: none;
+    color: #315959;
+}
+label{
+    height:20px;
+}
+input{
+    /* height: 30px; */
+    border-radius: 3px;
+    align-items: center;
+}
+.inquietud{
+    height: 200px;
+    width: 100%;
+}
+.formulario,h5{
+    padding: 20px;
+}
+.logoform{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bi-mastodon{
+    color:#A64E77;
 }
