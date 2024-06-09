@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,12 +6,29 @@
 body{
     background-color: white;
     height: 100%;
+}
+.logo i{
+    display: flex;
+    margin-left: 30px;
+    margin-top: -18px;
+    color:#315959;  
+}
+.navbar{
+    display: flex;
+    background-color:white;
+    justify-content:flex-end;
     width: 100%;
+}
+.navbar a{
+    display: flex;
+    color:#315959;
+    text-decoration: none;
+    padding: 4px 5px;
+    align-items: center;
 }
 .contenedor{
     background-color: white;
     width: 100%;
-    height: 30%;
     display: flex;
     justify-content: center;
     padding: 70px 0px;
@@ -34,18 +52,22 @@ body{
     margin-top: 60px;
     font-size: 20px;
     height: 25px;
-    background-color:darkseagreen;
+    background-color:#315959;
     text-align: end;
+}
+.skill{
+height: 20px;
+width: 20px;
 }
 .contenedorAbout{
     display: flex;
     background-color:#D9D9D9;
     width: 100%;
-    height: 400px;
     text-align: center;
     flex-direction: column;
     padding: 20px 0px;
     }
+
 .card{
     display: flex;
     justify-content: space-around;
@@ -53,10 +75,17 @@ body{
     padding: 20px 0px;
    
 }
+.card1, .card2, .card3{
+    width: 25%;
+    font-family:'Times New Roman', Times, serif; font-weight: 300px;
+    text-align:center;
+    justify-content: space-between;
+}
 .aboutMe{
     align-items: center;
     justify-content: center;
     text-align: center;
+    font-family:'Times New Roman', Times, serif; font-weight:bold;
     color: #A64E77;
 }
 .linea{
@@ -70,7 +99,6 @@ body{
 .habilidades{
     background-color: white;
     width: 100%;
-    height: 30%;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -110,19 +138,53 @@ body{
     display: flex;
     background-color:#D9D9D9;
     width: 100%;
-    height: 400px;
     text-align: center;
     flex-direction: column;
     padding: 20px 0px;
+}
+.portfolio, h2,h4{
+    color:#315959;
 }
 .card{
     display: flex;
     width: 100%;
     justify-content: space-around;
     padding: 30px 0px;
-    /* flex-grow:0 ; */
 }
 .port{
     height: 170px;
     width: 200px;
+}
+.footer{
+    width: 100%;
+display: flex;
+background-color:#315959;
+flex-direction: column;
+align-items: center;
+padding: 20px 0px;
+
+}
+.contactanos{
+    text-decoration: none;
+    color: black;
+    text-align: center;
+    text-transform: capitalize;
+}
+.bi{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.contacto{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.email{
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:large;
+}
+.link{
+    padding: 5px 1px;
 }
