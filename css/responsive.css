@@ -1,111 +1,756 @@
-@media(max-width:320px){
-.navbar{
-flex-direction: column;
-align-items: center;
-}
-.navbar a{
-    padding: 10px 0px;
-    display: block;
-    display: none;
-}
-.bi-list{
-    display: block;
-}
-.logo{
-margin-top: -10px;
-}
+@media(max-width:1920px){
+    .navbar{
+        display: flex;
+        align-items: end;
+        justify-content:flex-end;
+        width: 100%;
+        }
+    .navbar a{
+        padding: 10px 0px;
+        font-size: 35px;
+        margin: 7px;
+    }
+    .bi-list{
+        display: none;
+    }
+    .logo, i{
+        margin-top: -50px;
+    }
+    .bi-mastodon{
+        font-size: 50px;
+    }
+    
+    .persona{
+        padding: 20px 0px;
+        width:250px;
+        height:320px;
+     }
+     .nombre{
+        margin-left:49%;
+        margin-top: -200px;
+        font-size: 40px;
+     }
+     .developer{
+        font-size: 25px;
+        height: 45px;
+        width: 52%;
+        margin-top: 2%;
+        margin-left: 30%;
+     }
+     .aboutMe{
+        padding: 20px 0px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 50px;
+        font-family:'Times New Roman', Times, serif; font-weight:bold;
+        color: #A64E77;
+    }
+     .linea{
+        margin-left: 47%;
+        width: 5%;
+    }
+    .skill{
+        height: 50px;
+        width: 50px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 100%;
+        align-items: start;
+    }
+    .card h4{
+        font-size: 35px;
+        padding: 10px 0px;
+    }
+    .card1,.card2,.card3{
+        padding: 10px 0px;
+        width:20%;
+        font-size: 30px;
+    }
+    .tituloHab{
+        margin-top:-15%;
+        font-size: 50px;
+        margin-left: 5%;
+    }
+   
+    .persona1{
+        width: 300px;
+        height: 350px;
+    }
 
-.contendor{
-    display: flex;
-    width: 100%;
-    justify-content: center;
-    padding: 20px 0px;
-}
-.persona{
-    width: 75px;
-    height: 100px;
-}
-.nombre{
-    margin-left: 60%;
-    margin-top: -80px;
-    font-size: 9px;
-}
-.developer{
-    margin-top:45px;
-    height: 10px;
-    font-size: 10px;
-    width: 65%;
-}
-.contenedorAbout{
-    display: flex;
-    padding: 3px 0px;
-   font-size: 10px;
-}
-.skill{
-    height: 15px;
-    width: 15px;
-}
-.card{
-    display: flex;
-    justify-content: space-around;
+    .hab{
+        font-size: 25px;
+        color: black;
+        text-align: start;
+        width: 78%;
+        font-size: 30px;
+        margin-left: 5%;
+        margin-top: -15px;
+        padding: 2px 0px;
+    }
+    .habDescripcion{
+        font-size: 30px;
+        margin-left: 5%;
+        width: 55%;
+        padding:8px 0px;
+    }
+    .port{
+        width: 200px;
+        height: 200px;
+    }
+    
+    .portfolio, h2{
+    font-size: 35px;
     padding: 10px 0px;
-    width: 100%;
-    align-items: start;
+    }
+    
+    .portfolio, h4{
+        padding: 10px 0px;
+        font-size: 25px;
+    }
+.contacto, .email{
+    font-size: 30px;
 }
-.card h4{
-    font-size: 8px;
-}
-.card1,.card2,.card3{
-    width: 30%;
-    font-size: 10px;
-}
-.linea{
-    margin-left: 40%;
-}
-.persona1{
-    width: 75px;
-    height: 100px;
-}
-.tituloHab{
-    padding: 20px 0px;
-    margin-top: -110px;
-    font-size: 15px;
-    margin-left: 5%;
-}
-.hab{
-    font-size: 7px;
-    color: black;
-    text-align: start;
-    width: 85%;
-    margin-left: 5%;
-    margin-top: -15px;
-    padding: 2px 0px;
-}
-.habDescripcion{
-    font-size: 10px;
-    margin-left: 5%;
-    width: 55%;
-    padding:5px 0px;
-}
-.portfolio h4{
-    font-size: 6px;
-}
-.portfolio{
-    display: flex;
-    text-align: center;
-    padding: 5px 0px;
-}
-.port{
-    height:40px;
-    width: 40px;
-    display: flex;
-}
-.footer{
-    display: flex;
-    padding: 10px 0px;
-}
-.contacto,.email,.link,.bi{
-    padding: 2px;
-    font-size:9px;
+.bi-instagram,.bi-github,.bi-linkedin{
+   font-size: 40px;
 }
 }
+@media(max-width:1440px){
+    .navbar{
+        display: flex;
+        align-items: end;
+        justify-content:flex-end;
+        width: 100%;
+        }
+    .navbar a{
+        padding: 10px 0px;
+        font-size: 25px;
+        margin: 3px;
+    }
+    .bi-list{
+        display: none;
+    }
+    .logo, i{
+        margin-top: -45px;
+    }
+    .bi-mastodon{
+        font-size: 45px;
+    }
+    
+    .persona{
+        width:230px;
+        height:280px;
+     }
+     .nombre{
+        margin-left:52%;
+        margin-top: -170px;
+        font-size: 30px;
+     }
+     .developer{
+        font-size: 20px;
+        height: 35px;
+        width: 52%;
+        margin-top: 3%;
+        margin-left: 30%;
+     }
+     .aboutMe{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif; font-weight:bold;
+        color: #A64E77;
+    }
+     .linea{
+        margin-left: 48%;
+    }
+    .skill{
+        height: 45px;
+        width: 45px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 100%;
+        align-items: start;
+    }
+    .card h4{
+        font-size: 30px;
+        padding: 10px 0px;
+    }
+    .card1,.card2,.card3{
+        padding: 10px 0px;
+        width:20%;
+        font-size: 25px;
+    }
+    .tituloHab{
+        margin-top:-15%;
+        font-size: 40px;
+    }
+   
+    .persona1{
+        width: 230px;
+        height: 280px;
+    }
+
+    .hab{
+        font-size: 18px;
+        color: black;
+        text-align: start;
+        width: 78%;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: -15px;
+        padding: 2px 0px;
+    }
+    .habDescripcion{
+        font-size: 25px;
+        margin-left: 5%;
+        width: 55%;
+        padding:5px 0px;
+    }
+    .port{
+        width: 150px;
+        height: 150px;
+    }
+    .portfolio, h2{
+    font-size: 30px;
+    }
+    .portfolio, h4{
+        font-size: 20px;
+    }
+.contacto, .email{
+    font-size: 25px;
+}
+.bi-instagram,.bi-github,.bi-linkedin{
+   font-size: 30px;
+}
+}
+@media(max-width:1280px){
+    .navbar{
+        display: flex;
+        align-items: end;
+        justify-content:flex-end;
+        width: 100%;
+        }
+    .navbar a{
+        padding: 10px 0px;
+        font-size: 20px;
+        margin: 3px;
+    }
+    .bi-list{
+        display: none;
+    }
+    .logo, i{
+        margin-top: -40px;
+    }
+    .bi-mastodon{
+        font-size: 40px;
+    }
+    
+    .persona{
+        width:230px;
+        height:285px;
+     }
+     .nombre{
+        margin-left:53%;
+        margin-top: -170px;
+        font-size: 30px;
+     }
+     .developer{
+        font-size: 20px;
+        height: 30px;
+        width: 53%;
+        margin-top: 3%;
+        margin-left: 30%;
+     }
+     .aboutMe{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 40px;
+        font-family:'Times New Roman', Times, serif; font-weight:bold;
+        color: #A64E77;
+    }
+     .linea{
+        margin-left: 48%;
+        margin-top: -1%;
+    }
+    .skill{
+        height: 45px;
+        width: 45px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 100%;
+        align-items: start;
+    }
+    .card h4{
+        font-size: 27px;
+        padding: 10px 0px;
+    }
+    .card1,.card2,.card3{
+        padding: 10px 0px;
+        width:20%;
+        font-size: 22px;
+    }
+    .tituloHab{
+        margin-top:-15%;
+        font-size: 40px;
+    }
+   
+    .persona1{
+        width: 230px;
+        height: 280px;
+    }
+
+    .hab{
+        font-size: 18px;
+        color: black;
+        text-align: start;
+        width: 78%;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: -15px;
+        padding: 2px 0px;
+    }
+    .habDescripcion{
+        font-size: 22px;
+        margin-left: 5%;
+        width: 55%;
+        padding:5px 0px;
+    }
+    .port{
+        width: 150px;
+        height: 150px;
+    }
+    .portfolio, h2{
+    font-size: 30px;
+    }
+    .portfolio, h4{
+        font-size: 20px;
+    }
+.contacto, .email{
+    font-size: 20px;
+}
+.bi-instagram,.bi-github,.bi-linkedin{
+   font-size: 20px;
+}
+}
+@media(max-width:1024px){
+    .navbar{
+        display: flex;
+        align-items: end;
+        justify-content:flex-end;
+        width: 100%;
+        }
+    .navbar a{
+        padding: 10px 0px;
+        font-size: 20px;
+        margin: 2px;
+    }
+    .bi-list{
+        display: none;
+    }
+    .logo, i{
+        margin-top: -45px;
+    }
+    .bi-mastodon{
+        font-size: 45px;
+    }
+    
+    .persona{
+        width:200px;
+        height:190px;
+     }
+     .nombre{
+        margin-left:55%;
+        margin-top: -120px;
+        font-size: 20px;
+     }
+     .developer{
+        font-size: 20px;
+        height: 25px;
+        width: 50%;
+        margin-top: 2%;
+        margin-left: 30%;
+     }
+     .aboutMe{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 30px;
+        font-family:'Times New Roman', Times, serif; font-weight:bold;
+        color: #A64E77;
+    }
+     .linea{
+        margin-left: 47%;
+        margin-top: -1%;
+    }
+
+    .skill{
+        width: 45px;
+        height:45px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 100%;
+        align-items: start;
+    }
+    .card h4{
+        font-size: 20px;
+    }
+    .card1,.card2,.card3{
+        width: 50%;
+        font-size: 20px;
+    }
+    .hab{
+        font-size: 16px;
+        color: black;
+        text-align: start;
+        width: 78%;
+        font-size: 20px;
+        margin-left: 5%;
+        margin-top: -15px;
+        padding: 2px 0px;
+    }
+    .habDescripcion{
+        font-size: 18px;
+        margin-left: 5%;
+        width: 55%;
+        padding:5px 0px;
+    }
+    .port{
+        width: 150px;
+        height: 150px;
+    }
+    .portfolio, h2{
+    font-size: 25px;
+    }
+    .portfolio, h4{
+        font-size: 15px;
+    }
+    .contacto, .email{
+        font-size: 20px;
+    }
+    .bi-instagram,.bi-github,.bi-linkedin{
+       font-size: 20px;
+    }
+
+}
+@media(max-width:768px){
+    .navbar{
+        display: flex;
+        align-items: end;
+        justify-content:right;
+        width: 100%;
+        }
+     .navbar a{
+        padding: 10px 0px;
+        font-size: 15px;
+        display: block;
+        margin: 2px;
+    }
+    .bi-list{
+        display: none;
+    }
+    .logo{
+        margin-top: -30px;
+    }
+    .bi-mastodon{
+        font-size: 30px;
+    }
+    .persona{
+        width:120px;
+        height:140px;
+     }
+     .nombre{
+        margin-left:51%;
+        margin-top: -120px;
+        font-size: 14px;
+     }
+     .developer{
+        font-size: 14px;
+        height: 15px;
+        width: 56%;
+        margin-top: 6%;
+        margin-left: 30%;
+     }
+     .linea{
+        margin-left: 46%;
+        margin-top: -2%;
+        width: 8%;
+    }
+    .skill{
+        height: 30px;
+        width: 30px;
+    }
+    .card{
+        display: flex;
+        justify-content: space-around;
+        padding: 10px 0px;
+        width: 100%;
+        align-items: start;
+    }
+    .card h4{
+        font-size: 17px;
+    }
+    .card1,.card2,.card3{
+        padding: 10px 0px;
+        width: 45%;
+        font-size: 16px;
+    }
+    .persona1{
+        width: 130px;
+        height:160px;
+
+    }
+    .tituloHab{
+        font-size: 30px;
+        margin-top: -20%;
+    }
+    .hab{
+        font-size: 16px;
+        color: black;
+        text-align: start;
+        width: 75%;
+        margin-left: 5%;
+        margin-top: -15px;
+        padding: 2px 0px;
+    }
+    .habDescripcion{
+        font-size: 15px;
+        margin-left: 5%;
+        width: 55%;
+        padding:5px 0px;
+    }
+    .port{
+        width: 100px;
+        height: 100px;
+    }
+    .portfolio, h2{
+        font-size: 25px;
+        padding: 10px 0px;
+        }
+        
+        .portfolio, h4{
+            padding: 10px 0px;
+            font-size: 15px;
+        }
+    .contacto, .email{
+        font-size: 15px;
+    }
+    .bi-instagram,.bi-github,.bi-linkedin{
+       font-size: 15px;
+    }
+}
+@media(max-width:480px){
+        .persona{
+           width:100px;
+           height: 140px;
+        }
+        .nombre{
+           margin-left: 57%;
+           margin-top: -115px;
+           font-size: 14px;
+        }
+        .developer{
+           font-size: 13px;
+           height: 15px;
+           width: 65%;
+           margin-top: 13%;
+           margin-left: 30%;
+        }
+        .navbar{
+           display: flex;
+           align-items: end;
+           justify-content:right;
+           width: 100%;
+           }
+        .navbar a{
+           padding: 10px 0px;
+           font-size: 15px;
+           display: block;
+           margin: 2px;
+       }
+       .bi-list{
+           display: none;
+       }
+       .logo{
+           margin-top: -30px;
+       }
+       .linea{
+           margin-left: 42%;
+       }
+       .skill{
+           height: 25px;
+           width: 25px;
+       }
+       .card{
+           display: flex;
+           justify-content: space-around;
+           padding: 10px 0px;
+           width: 100%;
+           align-items: start;
+       }
+       .card h4{
+           font-size: 13px;
+       }
+       .persona1{
+           width: 110px;
+           height: 120px;
+       }
+       .tituloHab{
+           padding: 20px 0px;
+           margin-top: -110px;
+           font-size: 15px;
+           margin-left: 5%;
+       }
+       .hab{
+           font-size: 9px;
+           color: black;
+           text-align: start;
+           width: 85%;
+           margin-left: 5%;
+           margin-top: -15px;
+           padding: 2px 0px;
+       }
+       .habDescripcion{
+           font-size: 12px;
+           margin-left: 5%;
+           width: 55%;
+           padding:5px 0px;
+       }
+        .port{
+           height: 60px;
+           width: 70px;
+        }   
+        .card1,.card2,.card3{
+           width: 60%;
+           font-size: 13px;
+       }
+       }
+@media(max-width:320px){
+        .navbar{
+        flex-direction: column;
+        align-items: center;
+        }
+        .navbar a{
+            padding: 10px 0px;
+            display: block;
+            display: none;
+        }
+        .bi-list{
+            display: block;
+        }
+        .logo{
+        margin-top: -10px;
+        }
+        
+        .contendor{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            padding: 20px 0px;
+        }
+        .persona{
+            width: 75px;
+            height: 100px;
+        }
+        .nombre{
+            margin-left: 60%;
+            margin-top: -80px;
+            font-size: 9px;
+        }
+        .developer{
+            margin-top:45px;
+            height: 10px;
+            font-size: 10px;
+            width: 65%;
+        }
+        .contenedorAbout{
+            display: flex;
+            padding: 3px 0px;
+           font-size: 10px;
+        }
+        .skill{
+            height: 15px;
+            width: 15px;
+        }
+        .card{
+            display: flex;
+            justify-content: space-around;
+            padding: 10px 0px;
+            width: 100%;
+            align-items: start;
+        }
+        .card h4{
+            font-size: 8px;
+        }
+        .card1,.card2,.card3{
+            width: 30%;
+            font-size: 10px;
+        }
+        .linea{
+            margin-left: 40%;
+        }
+        .persona1{
+            width: 75px;
+            height: 100px;
+        }
+        .tituloHab{
+            padding: 20px 0px;
+            margin-top: -110px;
+            font-size: 15px;
+            margin-left: 5%;
+        }
+        .hab{
+            font-size: 7px;
+            color: black;
+            text-align: start;
+            width: 85%;
+            margin-left: 5%;
+            margin-top: -15px;
+            padding: 2px 0px;
+        }
+        .habDescripcion{
+            font-size: 10px;
+            margin-left: 5%;
+            width: 55%;
+            padding:5px 0px;
+        }
+        .portfolio h4{
+            font-size: 6px;
+        }
+        .portfolio{
+            display: flex;
+            text-align: center;
+            padding: 5px 0px;
+        }
+        .port{
+            height:40px;
+            width: 40px;
+            display: flex;
+        }
+        .footer{
+            display: flex;
+            padding: 10px 0px;
+        }
+        .contacto,.email{
+            padding: 2px;
+            font-size:9px;
+        }
+        .bi-instagram,.bi-github,.bi-linkedin{
+            font-size: 9px;
+         }
+        }  
+
+        
