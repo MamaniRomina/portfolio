@@ -26,14 +26,15 @@ margin-top: -10px;
     height: 100px;
 }
 .nombre{
-    margin-left: 110px;
+    margin-left: 60%;
     margin-top: -80px;
-    font-size: 15px;
+    font-size: 9px;
 }
 .developer{
-    margin-top: 30px;
+    margin-top:45px;
     height: 10px;
     font-size: 10px;
+    width: 65%;
 }
 .contenedorAbout{
     display: flex;
